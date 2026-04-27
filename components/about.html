@@ -1,7 +1,8 @@
 <!-- About Me / Stats Bento Grid -->
 <section class="bg-surface-container-low py-32 mb-32" id="about">
   <div class="max-w-7xl mx-auto px-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Trajetória e Stats -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
       <div
         class="md:col-span-2 bg-surface-container-high p-12 rounded-3xl space-y-6"
       >
@@ -9,7 +10,7 @@
           Minha Trajetória
         </h2>
         <p class="text-on-surface-variant text-lg leading-relaxed">
-          Com mais de 6 anos de experiência em desenvolvimento web e design digital, navegue através de projetos inovadores, design UI/UX refinado e desenvolvimento full-stack. Minha filosofia é simples: o design deve ser invisível mas sentido. Busco clareza, emoção e excelência técnica em cada pixel.
+          Estudante de Sistemas de Informação (8º período) com experiência em desenvolvimento web full stack. Atuo com <span class="text-primary font-semibold">Laravel, Vue.js, React e Flutter</span>, combinando suporte técnico com desenvolvimento de soluções inovadoras. Perfil colaborativo com aprendizado rápido e foco em resolução de problemas.
         </p>
       </div>
       <div
@@ -21,40 +22,79 @@
           >Projetos Entregues</span
         >
       </div>
-      <div
-        class="bg-surface-container-highest p-12 rounded-3xl flex flex-col justify-center items-center text-center space-y-2"
-      >
-        <span class="text-6xl font-black text-secondary">12</span>
-        <span
-          class="font-label uppercase tracking-widest text-on-surface-variant text-sm"
-          >Prêmios Conquistados</span
-        >
+    </div>
+
+    <!-- Competências e Experiência -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Competências Técnicas -->
+      <div class="bg-surface-container-high p-10 rounded-3xl space-y-4">
+        <h3 class="text-xl font-bold flex items-center gap-2">
+          <span class="material-symbols-outlined text-primary">code</span>
+          Competências
+        </h3>
+        <ul class="space-y-2 text-on-surface-variant">
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">▸</span>
+            <span><span class="text-on-surface font-semibold">Frontend:</span> JavaScript, Vue.js, React, HTML, CSS</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">▸</span>
+            <span><span class="text-on-surface font-semibold">Backend:</span> PHP (Laravel), MVC</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">▸</span>
+            <span><span class="text-on-surface font-semibold">Mobile:</span> Flutter</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-1">▸</span>
+            <span><span class="text-on-surface font-semibold">Outras:</span> Git/GitHub, Suporte Técnico, Hardware</span>
+          </li>
+        </ul>
       </div>
-      <div
-        class="md:col-span-2 bg-surface-container-high p-12 rounded-3xl flex items-center justify-between overflow-hidden relative"
-      >
-        <div class="space-y-2 z-10">
-          <h3 class="text-2xl font-bold">Confiança de Empresas Globais</h3>
-          <p class="text-on-surface-variant">
-            Colaborações globais em 4 continentes.
+
+      <!-- Experiência e Formação -->
+      <div class="bg-surface-container-high p-10 rounded-3xl space-y-4">
+        <div class="space-y-4">
+          <h3 class="text-xl font-bold flex items-center gap-2">
+            <span class="material-symbols-outlined text-secondary">work</span>
+            Experiência
+          </h3>
+          <div class="space-y-3 text-sm">
+            <div>
+              <p class="text-on-surface font-semibold">Rede Melhor Compra</p>
+              <p class="text-on-surface-variant">Desenvolvimento Web & Suporte de TI (2025 – Atual)</p>
+            </div>
+            <div>
+              <p class="text-on-surface font-semibold">Concrelagos</p>
+              <p class="text-on-surface-variant">Auxiliar de TI (2023 – 2025)</p>
+            </div>
+          </div>
+        </div>
+        <div class="pt-4 border-t border-outline-variant/20 space-y-2">
+          <p class="text-on-surface font-semibold flex items-center gap-2">
+            <span class="material-symbols-outlined text-tertiary text-lg">school</span>
+            Formação
+          </p>
+          <p class="text-on-surface-variant text-sm">
+            Sistemas de Informação • Instituto Federal Fluminense (2022 – Atual)
           </p>
         </div>
-        <div class="flex -space-x-4">
-          <div
-            class="w-16 h-16 rounded-full bg-surface-container-highest border-4 border-surface-container-high flex items-center justify-center"
-          >
-            <span class="material-symbols-outlined text-primary"
-              >auto_awesome</span
-            >
-          </div>
-          <div
-            class="w-16 h-16 rounded-full bg-surface-container-highest border-4 border-surface-container-high flex items-center justify-center"
-          >
-            <span class="material-symbols-outlined text-tertiary"
-              >rocket_launch</span
-            >
-          </div>
+      </div>
+    </div>
+
+    <!-- Localização e Contato -->
+    <div class="mt-6 bg-gradient-to-br from-surface-container-high to-surface-container p-10 rounded-3xl">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        <div class="space-y-2">
+          <span class="material-symbols-outlined text-primary block text-4xl">location_on</span>
+          <p class="font-semibold">Localização</p>
+          <p class="text-on-surface-variant text-sm">Belo Horizonte - MG</p>
         </div>
+        <div class="space-y-2">
+          <span class="material-symbols-outlined text-secondary block text-4xl">language</span>
+          <p class="font-semibold">Idioma</p>
+          <p class="text-on-surface-variant text-sm">Inglês B1 (Intermediário)</p>
+        </div>  
       </div>
     </div>
   </div>
